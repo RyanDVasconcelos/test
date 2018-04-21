@@ -1,0 +1,49 @@
+import javax.swing.*;
+public class SegundaQuestao {
+
+	public static void main(String[] args) {
+
+	int primeirapavota = Integer.parseInt(JOptionPane.showInputDialog("Insira o Número do Candidato"));
+	String voto1 = "";
+	String voto2 = "";
+	String voto3 = "";
+	switch (primeirapavota) {
+		case 1: voto1 = "Candidato1"; break;
+		case 2: voto1 = "Candidato2"; break;
+		case 3: voto1 = "Candidato3"; break;
+		default: voto1 = "Nulo"; break;
+	}
+	JOptionPane.showMessageDialog(null," Você Votou " + voto1);
+	int segundopavota = Integer.parseInt(JOptionPane.showInputDialog("Insira o Número do Candidato"));
+
+	switch (segundopavota) {
+		case 1: voto2 = "Candidato1"; break;
+		case 2: voto2 = "Candidato2"; break;
+		case 3: voto2 = "Candidato3"; break;
+		default: voto2 = "Nulo"; break;
+	}
+	JOptionPane.showMessageDialog(null," Você Votou " + voto2);
+	int terceiropavota = Integer.parseInt(JOptionPane.showInputDialog("Insira o Número do Candidato"));
+
+	switch (terceiropavota) {
+		case 1: voto3 = "Candidato1"; break;
+		case 2: voto3 = "Candidato2"; break;
+		case 3: voto3 = "Candidato3"; break;
+		default: voto3 = "Nulo"; break;
+	}
+	JOptionPane.showMessageDialog(null," Você Votou " + voto3);
+		if (voto1 == voto2 && voto1 == voto3);
+	JOptionPane.showMessageDialog(null,"O Candidato com Mais Votos é o " + voto1);
+	
+	
+	}		
+	
+	
+	
+	
+	
+	
+	
+	}
+
+
